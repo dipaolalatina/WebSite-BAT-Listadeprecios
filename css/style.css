@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+body.inicio{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+
+h1.title-validation{
+    color: #fff;
+    font-weight: 700;
+}
+
+h1.t-1{
+    color: #fff;
+    font-weight: 700;
+}
+
+h4.t-2{
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn.btn-validation{
+    background-color: #fbbc1e;
+    border-radius: 100px;
+    color: #fff;
+    min-width: 300px;
+    font-size: 1.3em;
+    padding: 7px 25px;
+    font-weight: 600;
+}
+
+/* Tablas */
+
+.tabla-precios thead{
+    background-color: #2d2e2e;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px 5px;
+    border: 0;    
+}
+
+.tabla-precios thead tr th{
+    background-color: #2d2e2e;
+    border: 0;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.tabla-precios thead tr th.head-left{
+    border-radius: 100px 0px 0px 100px;
+    background-color: #2d2e2e;
+
+}
+
+.tabla-precios thead tr th.head-right{
+    border-radius: 0px 100px 100px 0px;
+    background-color: #233bc0;
+}
+
+.tabla-precios tbody tr td, .tabla-precios tbody tr th{
+    border: 0;
+    padding: 5px 10px;
+    font-size: .8em;
+    color: #233cc3;
+}
+
+h5.disclaimer{
+    font-size: .5em;
+    text-align: center;
+    width: 100%;
+    border-radius: 100px;
+    border: 5px solid #fbbc1e;
+    color: #6f6f6f;
+    padding: 10px 5px;
+}
